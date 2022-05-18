@@ -167,7 +167,7 @@ cases(
     'isPasswordAllowed: valid passwords',
     (opt) => {
       expect(isPasswordAllowed(opt.password)).toBe(true)
-    },
+    }, 
     // call function nameFormat on test cases
     nameFormat ({
       'valid password': '!aBc123',
